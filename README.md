@@ -46,8 +46,31 @@ Kevin Mitchell, a fictional Information Technology Security Analyst, serves as t
 - [Validation record and evidence interpretation](docs/IAM-CA-001-validation-record.md)
 - [Screenshot inventory and upload instructions](screenshots/README.md)
 
+
+## Selected screenshot evidence
+
+### Authenticator registration
+![Authenticator registration](screenshots/05-entra-microsoft-authenticator-registered.png)
+
+### Report-only policy evaluation
+![Report-only policy evaluation](screenshots/11-entra-conditional-access-evaluation-details.png)
+
+### Detailed report-only matching
+![Detailed report-only matching](screenshots/12-entra-conditional-access-user-scope.png)
+
+### MFA grant configuration
+![MFA grant configuration](screenshots/14-entra-conditional-access-policy-enabled.png)
+
+### Enabled policy
+![Enabled policy](screenshots/15-entra-mfa-enforcement-signin-result.png)
+
+### Authentication details
+![Authentication details](screenshots/16-entra-mfa-authentication-details.png)
+
+[Browse all 15 evidence screenshots](screenshots/README.md).
+
 ## Security and scope
-This lab uses a dedicated test account to limit the blast radius of enforcement. It does not demonstrate a production deployment, enterprise approval, universal enforcement across all apps, or a fresh MFA challenge on the final sign-in. Screenshots are uploaded separately after privacy review.
+This lab uses a dedicated test account to limit the blast radius of enforcement. It does not demonstrate a production deployment, enterprise approval, universal enforcement across all apps, or a fresh MFA challenge on the final sign-in. The 15 screenshot files have been uploaded to the repository.
 
 ## Skills demonstrated
 Microsoft Entra ID · Identity and Access Management (IAM) · Multifactor Authentication (MFA) · Conditional Access · Report-only testing · Sign-in log investigation · Policy scoping · Security validation · Evidence documentation
